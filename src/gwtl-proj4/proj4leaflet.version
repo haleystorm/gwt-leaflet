@@ -1,7 +1,6 @@
 # ------------------------------------------------------
-# From: https://github.com/kengu/Proj4Leaflet.git/src/
+# From: https://github.com/kartena/Proj4Leaflet/releases/tag/0.7.1
 # ------------------------------------------------------
-version=origin/master/74a5a8b170ff58e635cba139cfaa25cd4cd5d022
-
+Version=0.7.1
 	
 	

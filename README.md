@@ -24,6 +24,7 @@ Features
 + v0.2 (Primo Nov 2012) - All relevant parts of Leaflet API exposed, start publishing snapshots (maven + jars)
 + v0.3 (Ultimo Dec 2012) - Widgets: geolocation (field), first official release (maven + jars).
 + v0.4 (Ultimo Sep 2015) - GWT upgraded to 2.7.0. Added leaflet.draw plugin.
++ v0.5 (???) - Proj4 upgraded to 2.3.3 and Proj4leaflet upgraded to 0.7.1.
 
 ###<a href="gwt-leaflet/tree/master/src/gwtl-core">Core Module</a>###
 
@@ -56,9 +57,10 @@ Following parts of Leaflet API are implemented:
             
 ###<a href="src/gwtl-proj4">Proj4 Module (GWT)</a>###
 
-**Dependency**: Proj4Leaflet [master/74a5a8b170ff58e635cba139cfaa25cd4cd5d022](https://github.com/kengu/Proj4Leaflet/commit/74a5a8b170ff58e635cba139cfaa25cd4cd5d022) (git)
+**Dependency**: Proj4Leaflet [version 0.7.1](https://github.com/kengu/Proj4Leaflet/commit/74a5a8b170ff58e635cba139cfaa25cd4cd5d022) (git)
                                     
-+ Proj4 - Custom (local) CRS factory plugin to Leaflet ([Proj4Leaflet](https://github.com/kartena/Proj4Leaflet))
++ Proj4js - JavaScript library to transform coordinates from one coordinate system to another, including datum transformations ([proj4js](https://github.com/proj4js/proj4js/releases/tag/2.3.3))
++ Proj4Leaflet - Proj4js integration with Leaflet ([Proj4Leaflet](https://github.com/kartena/Proj4Leaflet/releases/tag/0.7.1))
 
 ###<a href="src/gwtl-search">Search Module (GWT)</a>###
 
